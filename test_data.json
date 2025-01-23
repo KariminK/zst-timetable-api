@@ -1,0 +1,398 @@
+[
+  [
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "subject": "GDDW",
+        "teacher": "Ga",
+        "teacherId": "23",
+        "room": "A3"
+      }
+    ],
+    [
+      {
+        "subject": "geografia",
+        "teacher": "BO",
+        "teacherId": "11",
+        "room": "20"
+      }
+    ],
+    [
+      {
+        "subject": "wf",
+        "teacher": "Ge",
+        "teacherId": "25",
+        "room": "56",
+        "groupName": "1/2"
+      },
+      {
+        "subject": "wf",
+        "teacher": "Ms",
+        "teacherId": "51",
+        "room": "Boisk1",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "biologia",
+        "teacher": "Po",
+        "teacherId": "60",
+        "room": "A1"
+      }
+    ],
+    [
+      {
+        "subject": "biologia",
+        "teacher": "Po",
+        "teacherId": "60",
+        "room": "5"
+      }
+    ],
+    []
+  ],
+  [
+    [
+      {
+        "subject": "r_j.angielsk",
+        "teacher": "Sz",
+        "teacherId": "72",
+        "room": "48",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.angielski",
+        "teacher": "Sz",
+        "teacherId": "72",
+        "room": "48",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.angielski",
+        "teacher": "Sz",
+        "teacherId": "72",
+        "room": "48",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.polski",
+        "teacher": "Ks",
+        "teacherId": "41",
+        "room": "52"
+      }
+    ],
+    [
+      {
+        "subject": "j.polski",
+        "teacher": "Ks",
+        "teacherId": "41",
+        "room": "52"
+      }
+    ],
+    [
+      {
+        "subject": "matematyka",
+        "teacher": "KO",
+        "teacherId": "36",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "matematyka",
+        "teacher": "KO",
+        "teacherId": "36",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "wf",
+        "teacher": "Ge",
+        "teacherId": "25",
+        "room": "57",
+        "groupName": "1/2"
+      },
+      {
+        "subject": "wf",
+        "teacher": "Ms",
+        "teacherId": "51",
+        "room": "wf1",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "wf",
+        "teacher": "Ge",
+        "teacherId": "25",
+        "room": "wf2",
+        "groupName": "1/2"
+      },
+      {
+        "subject": "wf",
+        "teacher": "Ms",
+        "teacherId": "51",
+        "room": "56",
+        "groupName": "2/2"
+      }
+    ],
+    []
+  ],
+  [
+    [
+      {
+        "subject": "r_matematyka",
+        "teacher": "KO",
+        "teacherId": "36",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "u_PW",
+        "teacher": "Ga",
+        "teacherId": "23",
+        "room": "42"
+      }
+    ],
+    [
+      {
+        "subject": "u_PW",
+        "teacher": "Ga",
+        "teacherId": "23",
+        "room": "42"
+      }
+    ],
+    [
+      {
+        "subject": "u_PW",
+        "teacher": "Ga",
+        "teacherId": "23",
+        "room": "42"
+      }
+    ],
+    [
+      {
+        "subject": "hist.i teraź",
+        "teacher": "Dr",
+        "teacherId": "18",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "chemia",
+        "teacher": "Pi",
+        "teacherId": "67",
+        "room": "16"
+      }
+    ],
+    [
+      {
+        "subject": "bizn.i zarz.",
+        "teacher": "So",
+        "teacherId": "70",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "j.polski",
+        "teacher": "Ks",
+        "teacherId": "41",
+        "room": "52"
+      }
+    ],
+    [
+      {
+        "subject": "informatyka",
+        "teacher": "Bc",
+        "teacherId": "7",
+        "room": "71",
+        "groupName": "2/2"
+      }
+    ],
+    []
+  ],
+  [
+    [
+      {
+        "subject": "matematyka",
+        "teacher": "KO",
+        "teacherId": "36",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "matematyka",
+        "teacher": "KO",
+        "teacherId": "36",
+        "room": "24"
+      }
+    ],
+    [
+      {
+        "subject": "chemia",
+        "teacher": "Pi",
+        "teacherId": "67",
+        "room": "16"
+      }
+    ],
+    [
+      {
+        "subject": "historia",
+        "teacher": "Pk",
+        "teacherId": "56",
+        "room": "52"
+      }
+    ],
+    [
+      {
+        "subject": "historia",
+        "teacher": "Pk",
+        "teacherId": "56",
+        "room": "21"
+      }
+    ],
+    [
+      {
+        "subject": "religia",
+        "teacher": "xG",
+        "teacherId": "16",
+        "room": "A1"
+      }
+    ],
+    [
+      {
+        "subject": "fizyka",
+        "teacher": "Sg",
+        "teacherId": "74",
+        "room": "19"
+      }
+    ],
+    [
+      {
+        "subject": "j.angielski",
+        "teacher": "Hl",
+        "teacherId": "29",
+        "room": "20",
+        "groupName": "1/2"
+      }
+    ],
+    [],
+    []
+  ],
+  [
+    [],
+    [
+      {
+        "subject": "informatyka",
+        "teacher": "Te",
+        "teacherId": "77",
+        "room": "79",
+        "groupName": "1/2"
+      }
+    ],
+    [
+      {
+        "subject": "r_j.angielsk",
+        "teacher": "Hl",
+        "teacherId": "29",
+        "room": "20",
+        "groupName": "1/2"
+      },
+      {
+        "subject": "j.hiszpański",
+        "teacher": "Le",
+        "teacherId": "43",
+        "room": "22",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.angielski",
+        "teacher": "Hl",
+        "teacherId": "29",
+        "room": "48",
+        "groupName": "1/2"
+      },
+      {
+        "subject": "j.hiszpański",
+        "teacher": "Le",
+        "teacherId": "43",
+        "room": "22",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.angielski",
+        "teacher": "Hl",
+        "teacherId": "29",
+        "room": "79",
+        "groupName": "1/2"
+      },
+      {
+        "subject": "j.angielski",
+        "teacher": "Sz",
+        "teacherId": "72",
+        "room": "48",
+        "groupName": "2/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.polski",
+        "teacher": "Ks",
+        "teacherId": "41",
+        "room": "52"
+      }
+    ],
+    [
+      {
+        "subject": "geografia",
+        "teacher": "BO",
+        "teacherId": "11",
+        "room": "22"
+      }
+    ],
+    [
+      {
+        "subject": "bizn.i zarz.",
+        "teacher": "So",
+        "teacherId": "70",
+        "room": "21"
+      }
+    ],
+    [
+      {
+        "subject": "j.niemiecki",
+        "teacher": "Kł",
+        "teacherId": "35",
+        "room": "6",
+        "groupName": "1/2"
+      }
+    ],
+    [
+      {
+        "subject": "j.niemiecki",
+        "teacher": "Kł",
+        "teacherId": "35",
+        "room": "6",
+        "groupName": "1/2"
+      }
+    ]
+  ]
+]
