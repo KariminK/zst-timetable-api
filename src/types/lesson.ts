@@ -9,7 +9,12 @@ export interface Lesson {
   classId?: string;
 }
 
+export interface emptyLesson {
+  empty: boolean;
+}
+
 export interface ParsedLesson {
+  nr: number;
   subject: string;
   teacher: string;
   teacherId: number;

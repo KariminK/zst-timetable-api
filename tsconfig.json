@@ -1,9 +1,19 @@
 {
   "compilerOptions": {
-    "target": "esnext", // Compile to a modern ECMAScript version that supports ES modules
-    "module": "esnext", // Use ES module syntax for module code generation
-    "moduleResolution": "node10", // Use Node.js style module resolution
-    "esModuleInterop": true, // Enables default imports from modules with no default export
-    "outDir": "src/dist" // Output directory for compiled files
-  }
+    "target": "ESNext",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "importsNotUsedAsValues": "remove",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
