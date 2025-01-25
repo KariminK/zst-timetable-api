@@ -1,10 +1,19 @@
 import { emptyLesson, Lesson } from "./lesson";
 
-export interface TimeTableReqParams {
+export interface TimeTableDayReqParams {
   classId: number;
   group: number;
 }
 
-export interface TimetableResBody {
+export interface TimetableDayResBody {
   timetable: (Lesson | emptyLesson)[];
+}
+
+export type TimetableDayReqQuery = {
+  day: string;
+};
+
+export interface TimetableError {
+  status: number;
+  msg: string;
 }

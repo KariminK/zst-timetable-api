@@ -1,4 +1,4 @@
-import { emptyLesson, Lesson } from "../../types/lesson";
+import { emptyLesson, Lesson } from "../types/lesson";
 
 type flatTimetableDay = (Lesson | emptyLesson)[];
 
