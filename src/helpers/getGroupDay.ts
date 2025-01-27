@@ -23,8 +23,10 @@ const getGroupDay = (
     .map((groupedLessons) => {
       switch (groupedLessons.length) {
         case 0:
+          // no lessons
           return { empty: true };
         case 1:
+          // only one group has lesson / whole class has lesson
           if (
             !("groupName" in groupedLessons[0] && groupedLessons[0].groupName)
           )
@@ -33,6 +35,7 @@ const getGroupDay = (
             return groupedLessons[0];
           else return { empty: true };
         case 2:
+          // both groups have lessons
           console.log(filterGroupLesson(groupedLessons, group));
           return filterGroupLesson(groupedLessons, group);
         default:

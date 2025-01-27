@@ -1,14 +1,4 @@
-import {
-  getTimetable,
-  getTimetableDay,
-} from "@/controllers/timetable.controller";
-import { TimetableDayReqQuery, TimeTableReqParams } from "@/types/timetable";
-import { Router } from "express";
-const indexRouter = Router();
+import timetableRouter from "./timetable.routes";
+import infoRouter from "./info.routes";
 
-indexRouter.get("/timetable/:classId/:group", (req, res, next) => {
-  if (req.query.day) getTimetableDay(req, res, next);
-  else getTimetable(req, res, next);
-});
-
-export default indexRouter;
+export { timetableRouter, infoRouter };

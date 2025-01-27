@@ -21,7 +21,7 @@ type TimetableDayRequestHandler = RequestHandler<
   TimetableDayReqQuery
 >;
 
-export const getTimetable: TimetableRequestHandler = async (req, res, next) => {
+const getTimetable: TimetableRequestHandler = async (req, res) => {
   const { group, classId } = req.params;
   const fullTimetable = await fetchTimetable(Number(classId));
   const parsedTimetable = fullTimetable.map((day) =>
@@ -34,7 +34,7 @@ export const getTimetable: TimetableRequestHandler = async (req, res, next) => {
   res.send({ timetable: parsedTimetable });
 };
 
-export const getTimetableDay: TimetableDayRequestHandler = async (req, res) => {
+const getTimetableDay: TimetableDayRequestHandler = async (req, res) => {
   const { group, classId } = req.params;
   const day = Number(req.query.day);
   if (day > 4 || day < 0) {
@@ -49,3 +49,5 @@ export const getTimetableDay: TimetableDayRequestHandler = async (req, res) => {
   }
   res.send({ timetable: dayTimetable });
 };
+
+export default { getTimetable, getTimetableDay };
